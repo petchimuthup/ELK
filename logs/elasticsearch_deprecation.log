@@ -1,0 +1,2 @@
+[2020-07-01T12:42:26,284][WARN ][o.e.d.b.Bootstrap        ] [TYC-YOGESH-004] future versions of Elasticsearch will require Java 11; your Java version from [C:\Program Files\Java\jdk1.8.0_251\jre] does not meet this requirement
+[2020-07-01T12:50:29,407][WARN ][o.e.d.c.m.MetadataCreateIndexService] [TYC-YOGESH-004] index name [.apm-custom-link] starts with a dot '.', in the next major version, index names starting with a dot are reserved for hidden indices and system indices

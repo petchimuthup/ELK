@@ -1,0 +1,175 @@
+[2020-07-01T12:42:26,618][INFO ][o.e.n.Node               ] [TYC-YOGESH-004] version[7.8.0], pid[5676], build[default/zip/757314695644ea9a1dc2fecd26d1a43856725e65/2020-06-14T19:35:50.234439Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_251/25.251-b08]
+[2020-07-01T12:42:26,620][INFO ][o.e.n.Node               ] [TYC-YOGESH-004] JVM home [C:\Program Files\Java\jdk1.8.0_251\jre]
+[2020-07-01T12:42:26,621][INFO ][o.e.n.Node               ] [TYC-YOGESH-004] JVM arguments [-Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dio.netty.allocator.numDirectArenas=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.locale.providers=SPI,JRE, -Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Djava.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\elasticsearch, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -XX:MaxDirectMemorySize=536870912, -Delasticsearch, -Des.path.home=D:\elasticsearch-7.8.0, -Des.path.conf=D:\elasticsearch-7.8.0\config, -Des.distribution.flavor=default, -Des.distribution.type=zip, -Des.bundled_jdk=true]
+[2020-07-01T12:42:29,873][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [aggs-matrix-stats]
+[2020-07-01T12:42:29,873][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [analysis-common]
+[2020-07-01T12:42:29,873][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [constant-keyword]
+[2020-07-01T12:42:29,874][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [flattened]
+[2020-07-01T12:42:29,874][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [frozen-indices]
+[2020-07-01T12:42:29,875][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [ingest-common]
+[2020-07-01T12:42:29,875][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [ingest-geoip]
+[2020-07-01T12:42:29,875][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [ingest-user-agent]
+[2020-07-01T12:42:29,876][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [kibana]
+[2020-07-01T12:42:29,876][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [lang-expression]
+[2020-07-01T12:42:29,877][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [lang-mustache]
+[2020-07-01T12:42:29,877][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [lang-painless]
+[2020-07-01T12:42:29,878][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [mapper-extras]
+[2020-07-01T12:42:29,878][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [parent-join]
+[2020-07-01T12:42:29,879][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [percolator]
+[2020-07-01T12:42:29,879][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [rank-eval]
+[2020-07-01T12:42:29,881][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [reindex]
+[2020-07-01T12:42:29,882][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [repository-url]
+[2020-07-01T12:42:29,885][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [search-business-rules]
+[2020-07-01T12:42:29,886][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [searchable-snapshots]
+[2020-07-01T12:42:29,889][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [spatial]
+[2020-07-01T12:42:29,890][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [tasks]
+[2020-07-01T12:42:29,890][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [transform]
+[2020-07-01T12:42:29,891][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [transport-netty4]
+[2020-07-01T12:42:29,891][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [vectors]
+[2020-07-01T12:42:29,891][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [x-pack-analytics]
+[2020-07-01T12:42:29,892][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [x-pack-async-search]
+[2020-07-01T12:42:29,892][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [x-pack-autoscaling]
+[2020-07-01T12:42:29,893][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [x-pack-ccr]
+[2020-07-01T12:42:29,893][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [x-pack-core]
+[2020-07-01T12:42:29,894][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [x-pack-deprecation]
+[2020-07-01T12:42:29,895][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [x-pack-enrich]
+[2020-07-01T12:42:29,896][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [x-pack-eql]
+[2020-07-01T12:42:29,897][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [x-pack-graph]
+[2020-07-01T12:42:29,897][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [x-pack-identity-provider]
+[2020-07-01T12:42:29,898][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [x-pack-ilm]
+[2020-07-01T12:42:29,898][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [x-pack-logstash]
+[2020-07-01T12:42:29,899][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [x-pack-ml]
+[2020-07-01T12:42:29,899][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [x-pack-monitoring]
+[2020-07-01T12:42:29,900][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [x-pack-ql]
+[2020-07-01T12:42:29,900][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [x-pack-rollup]
+[2020-07-01T12:42:29,900][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [x-pack-security]
+[2020-07-01T12:42:29,901][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [x-pack-sql]
+[2020-07-01T12:42:29,901][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [x-pack-voting-only-node]
+[2020-07-01T12:42:29,902][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] loaded module [x-pack-watcher]
+[2020-07-01T12:42:29,902][INFO ][o.e.p.PluginsService     ] [TYC-YOGESH-004] no plugins loaded
+[2020-07-01T12:42:32,119][INFO ][o.e.e.NodeEnvironment    ] [TYC-YOGESH-004] using [1] data paths, mounts [[New Volume (D:)]], net usable_space [93.8gb], net total_space [131.9gb], types [NTFS]
+[2020-07-01T12:42:32,120][INFO ][o.e.e.NodeEnvironment    ] [TYC-YOGESH-004] heap size [990.7mb], compressed ordinary object pointers [true]
+[2020-07-01T12:42:32,366][INFO ][o.e.n.Node               ] [TYC-YOGESH-004] node name [TYC-YOGESH-004], node ID [U7xH_4MNTy-cvOtu_GZhnw], cluster name [elasticsearch]
+[2020-07-01T12:42:36,799][INFO ][o.e.x.s.a.s.FileRolesStore] [TYC-YOGESH-004] parsed [0] roles from file [D:\elasticsearch-7.8.0\config\roles.yml]
+[2020-07-01T12:42:37,551][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [TYC-YOGESH-004] [controller/9772] [Main.cc@110] controller (64 bit): Version 7.8.0 (Build 58ff6912e20047) Copyright (c) 2020 Elasticsearch BV
+[2020-07-01T12:42:38,370][INFO ][o.e.d.DiscoveryModule    ] [TYC-YOGESH-004] using discovery type [zen] and seed hosts providers [settings]
+[2020-07-01T12:42:39,271][INFO ][o.e.n.Node               ] [TYC-YOGESH-004] initialized
+[2020-07-01T12:42:39,272][INFO ][o.e.n.Node               ] [TYC-YOGESH-004] starting ...
+[2020-07-01T12:42:39,839][INFO ][o.e.t.TransportService   ] [TYC-YOGESH-004] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2020-07-01T12:42:40,168][WARN ][o.e.b.BootstrapChecks    ] [TYC-YOGESH-004] the default discovery settings are unsuitable for production use; at least one of [discovery.seed_hosts, discovery.seed_providers, cluster.initial_master_nodes] must be configured
+[2020-07-01T12:42:40,187][INFO ][o.e.c.c.ClusterBootstrapService] [TYC-YOGESH-004] no discovery configuration found, will perform best-effort cluster bootstrapping after [3s] unless existing master is discovered
+[2020-07-01T12:42:43,191][INFO ][o.e.c.c.Coordinator      ] [TYC-YOGESH-004] setting initial configuration to VotingConfiguration{U7xH_4MNTy-cvOtu_GZhnw}
+[2020-07-01T12:42:43,513][INFO ][o.e.c.s.MasterService    ] [TYC-YOGESH-004] elected-as-master ([1] nodes joined)[{TYC-YOGESH-004}{U7xH_4MNTy-cvOtu_GZhnw}{hr9t8yctS5u0yD95189mkA}{127.0.0.1}{127.0.0.1:9300}{dilmrt}{ml.machine_memory=8485494784, xpack.installed=true, transform.node=true, ml.max_open_jobs=20} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{TYC-YOGESH-004}{U7xH_4MNTy-cvOtu_GZhnw}{hr9t8yctS5u0yD95189mkA}{127.0.0.1}{127.0.0.1:9300}{dilmrt}{ml.machine_memory=8485494784, xpack.installed=true, transform.node=true, ml.max_open_jobs=20}]}
+[2020-07-01T12:42:43,613][INFO ][o.e.c.c.CoordinationState] [TYC-YOGESH-004] cluster UUID set to [ZFtFgBshRKmKuHwySzlbOg]
+[2020-07-01T12:42:43,711][INFO ][o.e.c.s.ClusterApplierService] [TYC-YOGESH-004] master node changed {previous [], current [{TYC-YOGESH-004}{U7xH_4MNTy-cvOtu_GZhnw}{hr9t8yctS5u0yD95189mkA}{127.0.0.1}{127.0.0.1:9300}{dilmrt}{ml.machine_memory=8485494784, xpack.installed=true, transform.node=true, ml.max_open_jobs=20}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-07-01T12:42:43,836][INFO ][o.e.x.c.t.IndexTemplateRegistry] [TYC-YOGESH-004] adding index template [.watch-history-11] for [watcher], because it doesn't exist
+[2020-07-01T12:42:43,837][INFO ][o.e.x.c.t.IndexTemplateRegistry] [TYC-YOGESH-004] adding index template [.triggered_watches] for [watcher], because it doesn't exist
+[2020-07-01T12:42:43,860][INFO ][o.e.x.c.t.IndexTemplateRegistry] [TYC-YOGESH-004] adding index template [.watches] for [watcher], because it doesn't exist
+[2020-07-01T12:42:43,876][INFO ][o.e.x.c.t.IndexTemplateRegistry] [TYC-YOGESH-004] adding index template [.ml-anomalies-] for [ml], because it doesn't exist
+[2020-07-01T12:42:43,881][INFO ][o.e.x.c.t.IndexTemplateRegistry] [TYC-YOGESH-004] adding index template [.ml-state] for [ml], because it doesn't exist
+[2020-07-01T12:42:43,887][INFO ][o.e.x.c.t.IndexTemplateRegistry] [TYC-YOGESH-004] adding index template [.ml-config] for [ml], because it doesn't exist
+[2020-07-01T12:42:43,889][INFO ][o.e.x.c.t.IndexTemplateRegistry] [TYC-YOGESH-004] adding index template [.ml-inference-000002] for [ml], because it doesn't exist
+[2020-07-01T12:42:43,895][INFO ][o.e.x.c.t.IndexTemplateRegistry] [TYC-YOGESH-004] adding index template [.ml-meta] for [ml], because it doesn't exist
+[2020-07-01T12:42:43,897][INFO ][o.e.x.c.t.IndexTemplateRegistry] [TYC-YOGESH-004] adding index template [.ml-notifications-000001] for [ml], because it doesn't exist
+[2020-07-01T12:42:43,898][INFO ][o.e.x.c.t.IndexTemplateRegistry] [TYC-YOGESH-004] adding index template [.ml-stats] for [ml], because it doesn't exist
+[2020-07-01T12:42:43,904][INFO ][o.e.x.c.t.IndexTemplateRegistry] [TYC-YOGESH-004] adding index template [ilm-history] for [index_lifecycle], because it doesn't exist
+[2020-07-01T12:42:43,908][INFO ][o.e.x.c.t.IndexTemplateRegistry] [TYC-YOGESH-004] adding index template [.slm-history] for [index_lifecycle], because it doesn't exist
+[2020-07-01T12:42:43,965][INFO ][o.e.g.GatewayService     ] [TYC-YOGESH-004] recovered [0] indices into cluster_state
+[2020-07-01T12:42:44,183][INFO ][o.e.h.AbstractHttpServerTransport] [TYC-YOGESH-004] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2020-07-01T12:42:44,185][INFO ][o.e.n.Node               ] [TYC-YOGESH-004] started
+[2020-07-01T12:42:44,257][INFO ][o.e.c.m.MetadataIndexTemplateService] [TYC-YOGESH-004] adding template [.watch-history-11] for index patterns [.watcher-history-11*]
+[2020-07-01T12:42:44,428][INFO ][o.e.c.m.MetadataIndexTemplateService] [TYC-YOGESH-004] adding template [.triggered_watches] for index patterns [.triggered_watches*]
+[2020-07-01T12:42:44,610][INFO ][o.e.c.m.MetadataIndexTemplateService] [TYC-YOGESH-004] adding template [.watches] for index patterns [.watches*]
+[2020-07-01T12:42:44,757][INFO ][o.e.c.m.MetadataIndexTemplateService] [TYC-YOGESH-004] adding template [.ml-anomalies-] for index patterns [.ml-anomalies-*]
+[2020-07-01T12:42:44,941][INFO ][o.e.c.m.MetadataIndexTemplateService] [TYC-YOGESH-004] adding template [.ml-state] for index patterns [.ml-state*]
+[2020-07-01T12:42:45,071][INFO ][o.e.c.m.MetadataIndexTemplateService] [TYC-YOGESH-004] adding template [.ml-config] for index patterns [.ml-config]
+[2020-07-01T12:42:45,181][INFO ][o.e.c.m.MetadataIndexTemplateService] [TYC-YOGESH-004] adding template [.ml-inference-000002] for index patterns [.ml-inference-000002]
+[2020-07-01T12:42:45,347][INFO ][o.e.c.m.MetadataIndexTemplateService] [TYC-YOGESH-004] adding template [.ml-meta] for index patterns [.ml-meta]
+[2020-07-01T12:42:45,474][INFO ][o.e.c.m.MetadataIndexTemplateService] [TYC-YOGESH-004] adding template [.ml-notifications-000001] for index patterns [.ml-notifications-000001]
+[2020-07-01T12:42:45,646][INFO ][o.e.c.m.MetadataIndexTemplateService] [TYC-YOGESH-004] adding template [.ml-stats] for index patterns [.ml-stats-*]
+[2020-07-01T12:42:45,750][INFO ][o.e.c.m.MetadataIndexTemplateService] [TYC-YOGESH-004] adding template [ilm-history] for index patterns [ilm-history-2*]
+[2020-07-01T12:42:45,887][INFO ][o.e.c.m.MetadataIndexTemplateService] [TYC-YOGESH-004] adding template [.slm-history] for index patterns [.slm-history-2*]
+[2020-07-01T12:42:46,090][INFO ][o.e.c.m.MetadataIndexTemplateService] [TYC-YOGESH-004] adding template [.monitoring-logstash] for index patterns [.monitoring-logstash-7-*]
+[2020-07-01T12:42:46,209][INFO ][o.e.c.m.MetadataIndexTemplateService] [TYC-YOGESH-004] adding template [.monitoring-es] for index patterns [.monitoring-es-7-*]
+[2020-07-01T12:42:46,342][INFO ][o.e.c.m.MetadataIndexTemplateService] [TYC-YOGESH-004] adding template [.monitoring-beats] for index patterns [.monitoring-beats-7-*]
+[2020-07-01T12:42:46,441][INFO ][o.e.c.m.MetadataIndexTemplateService] [TYC-YOGESH-004] adding template [.monitoring-alerts-7] for index patterns [.monitoring-alerts-7]
+[2020-07-01T12:42:46,544][INFO ][o.e.c.m.MetadataIndexTemplateService] [TYC-YOGESH-004] adding template [.monitoring-kibana] for index patterns [.monitoring-kibana-7-*]
+[2020-07-01T12:42:46,652][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [TYC-YOGESH-004] adding index lifecycle policy [watch-history-ilm-policy]
+[2020-07-01T12:42:46,825][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [TYC-YOGESH-004] adding index lifecycle policy [ml-size-based-ilm-policy]
+[2020-07-01T12:42:47,034][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [TYC-YOGESH-004] adding index lifecycle policy [ilm-history-ilm-policy]
+[2020-07-01T12:42:47,208][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [TYC-YOGESH-004] adding index lifecycle policy [slm-history-ilm-policy]
+[2020-07-01T12:42:47,614][INFO ][o.e.l.LicenseService     ] [TYC-YOGESH-004] license [9379865f-13b5-4ea7-a5fa-8fd0a3c62f82] mode [basic] - valid
+[2020-07-01T12:42:47,616][INFO ][o.e.x.s.s.SecurityStatusChangeListener] [TYC-YOGESH-004] Active license is now [BASIC]; Security is disabled
+[2020-07-01T12:50:00,471][INFO ][o.e.c.m.MetadataCreateIndexService] [TYC-YOGESH-004] [.kibana_task_manager_1] creating index, cause [api], templates [], shards [1]/[1], mappings [_doc]
+[2020-07-01T12:50:00,509][INFO ][o.e.c.r.a.AllocationService] [TYC-YOGESH-004] updating number_of_replicas to [0] for indices [.kibana_task_manager_1]
+[2020-07-01T12:50:01,972][INFO ][o.e.c.m.MetadataCreateIndexService] [TYC-YOGESH-004] [.kibana_1] creating index, cause [api], templates [], shards [1]/[1], mappings [_doc]
+[2020-07-01T12:50:01,973][INFO ][o.e.c.r.a.AllocationService] [TYC-YOGESH-004] updating number_of_replicas to [0] for indices [.kibana_1]
+[2020-07-01T12:50:03,544][INFO ][o.e.c.r.a.AllocationService] [TYC-YOGESH-004] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[.kibana_task_manager_1][0], [.kibana_1][0]]]).
+[2020-07-01T12:50:04,387][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [TYC-YOGESH-004] adding index lifecycle policy [kibana-event-log-policy]
+[2020-07-01T12:50:04,756][INFO ][o.e.c.m.MetadataIndexTemplateService] [TYC-YOGESH-004] adding template [.kibana-event-log-7.8.0-template] for index patterns [.kibana-event-log-7.8.0-*]
+[2020-07-01T12:50:05,192][INFO ][o.e.c.m.MetadataCreateIndexService] [TYC-YOGESH-004] [.kibana-event-log-7.8.0-000001] creating index, cause [api], templates [.kibana-event-log-7.8.0-template], shards [1]/[1], mappings [_doc]
+[2020-07-01T12:50:05,194][INFO ][o.e.c.r.a.AllocationService] [TYC-YOGESH-004] updating number_of_replicas to [0] for indices [.kibana-event-log-7.8.0-000001]
+[2020-07-01T12:50:05,673][INFO ][o.e.x.i.IndexLifecycleTransition] [TYC-YOGESH-004] moving index [.kibana-event-log-7.8.0-000001] from [null] to [{"phase":"new","action":"complete","name":"complete"}] in policy [kibana-event-log-policy]
+[2020-07-01T12:50:06,578][INFO ][o.e.c.r.a.AllocationService] [TYC-YOGESH-004] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[.kibana-event-log-7.8.0-000001][0]]]).
+[2020-07-01T12:50:07,114][INFO ][o.e.x.i.IndexLifecycleTransition] [TYC-YOGESH-004] moving index [.kibana-event-log-7.8.0-000001] from [{"phase":"new","action":"complete","name":"complete"}] to [{"phase":"hot","action":"unfollow","name":"wait-for-indexing-complete"}] in policy [kibana-event-log-policy]
+[2020-07-01T12:50:07,724][INFO ][o.e.x.i.IndexLifecycleTransition] [TYC-YOGESH-004] moving index [.kibana-event-log-7.8.0-000001] from [{"phase":"hot","action":"unfollow","name":"wait-for-indexing-complete"}] to [{"phase":"hot","action":"unfollow","name":"wait-for-follow-shard-tasks"}] in policy [kibana-event-log-policy]
+[2020-07-01T12:50:08,342][INFO ][o.e.c.m.MetadataCreateIndexService] [TYC-YOGESH-004] [ilm-history-2-000001] creating index, cause [api], templates [ilm-history], shards [1]/[0], mappings [_doc]
+[2020-07-01T12:50:08,762][INFO ][o.e.x.i.IndexLifecycleTransition] [TYC-YOGESH-004] moving index [ilm-history-2-000001] from [null] to [{"phase":"new","action":"complete","name":"complete"}] in policy [ilm-history-ilm-policy]
+[2020-07-01T12:50:10,292][INFO ][o.e.x.i.IndexLifecycleTransition] [TYC-YOGESH-004] moving index [ilm-history-2-000001] from [{"phase":"new","action":"complete","name":"complete"}] to [{"phase":"hot","action":"unfollow","name":"wait-for-indexing-complete"}] in policy [ilm-history-ilm-policy]
+[2020-07-01T12:50:11,455][INFO ][o.e.c.r.a.AllocationService] [TYC-YOGESH-004] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[ilm-history-2-000001][0]]]).
+[2020-07-01T12:50:12,315][INFO ][o.e.x.i.IndexLifecycleTransition] [TYC-YOGESH-004] moving index [ilm-history-2-000001] from [{"phase":"hot","action":"unfollow","name":"wait-for-indexing-complete"}] to [{"phase":"hot","action":"unfollow","name":"wait-for-follow-shard-tasks"}] in policy [ilm-history-ilm-policy]
+[2020-07-01T12:50:29,543][INFO ][o.e.c.m.MetadataCreateIndexService] [TYC-YOGESH-004] [.apm-custom-link] creating index, cause [api], templates [], shards [1]/[1], mappings [_doc]
+[2020-07-01T12:50:29,567][INFO ][o.e.c.r.a.AllocationService] [TYC-YOGESH-004] updating number_of_replicas to [0] for indices [.apm-custom-link]
+[2020-07-01T12:50:31,556][INFO ][o.e.c.m.MetadataCreateIndexService] [TYC-YOGESH-004] [.apm-agent-configuration] creating index, cause [api], templates [], shards [1]/[1], mappings [_doc]
+[2020-07-01T12:50:31,558][INFO ][o.e.c.r.a.AllocationService] [TYC-YOGESH-004] updating number_of_replicas to [0] for indices [.apm-agent-configuration]
+[2020-07-01T12:50:36,273][INFO ][o.e.c.r.a.AllocationService] [TYC-YOGESH-004] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[.apm-agent-configuration][0]]]).
+[2020-07-01T12:50:45,591][INFO ][o.e.c.m.MetadataMappingService] [TYC-YOGESH-004] [.kibana_task_manager_1/a_m29BdYQLSUtF9_Ai6KDw] update_mapping [_doc]
+[2020-07-01T12:50:47,436][INFO ][o.e.c.m.MetadataIndexTemplateService] [TYC-YOGESH-004] adding template [.management-beats] for index patterns [.management-beats]
+[2020-07-01T12:50:48,643][INFO ][o.e.c.m.MetadataMappingService] [TYC-YOGESH-004] [.kibana_1/rrsSLru0TvqAuW98rXNHPw] update_mapping [_doc]
+[2020-07-01T12:52:43,763][INFO ][o.e.x.i.IndexLifecycleTransition] [TYC-YOGESH-004] moving index [.kibana-event-log-7.8.0-000001] from [{"phase":"hot","action":"unfollow","name":"wait-for-follow-shard-tasks"}] to [{"phase":"hot","action":"unfollow","name":"pause-follower-index"}] in policy [kibana-event-log-policy]
+[2020-07-01T12:52:43,917][INFO ][o.e.x.i.IndexLifecycleTransition] [TYC-YOGESH-004] moving index [ilm-history-2-000001] from [{"phase":"hot","action":"unfollow","name":"wait-for-follow-shard-tasks"}] to [{"phase":"hot","action":"unfollow","name":"pause-follower-index"}] in policy [ilm-history-ilm-policy]
+[2020-07-01T12:52:44,101][INFO ][o.e.x.i.IndexLifecycleTransition] [TYC-YOGESH-004] moving index [.kibana-event-log-7.8.0-000001] from [{"phase":"hot","action":"unfollow","name":"pause-follower-index"}] to [{"phase":"hot","action":"unfollow","name":"close-follower-index"}] in policy [kibana-event-log-policy]
+[2020-07-01T12:52:44,481][INFO ][o.e.x.i.IndexLifecycleTransition] [TYC-YOGESH-004] moving index [ilm-history-2-000001] from [{"phase":"hot","action":"unfollow","name":"pause-follower-index"}] to [{"phase":"hot","action":"unfollow","name":"close-follower-index"}] in policy [ilm-history-ilm-policy]
+[2020-07-01T12:52:44,828][INFO ][o.e.x.i.IndexLifecycleTransition] [TYC-YOGESH-004] moving index [.kibana-event-log-7.8.0-000001] from [{"phase":"hot","action":"unfollow","name":"close-follower-index"}] to [{"phase":"hot","action":"unfollow","name":"unfollow-follower-index"}] in policy [kibana-event-log-policy]
+[2020-07-01T12:52:44,949][INFO ][o.e.x.i.IndexLifecycleTransition] [TYC-YOGESH-004] moving index [ilm-history-2-000001] from [{"phase":"hot","action":"unfollow","name":"close-follower-index"}] to [{"phase":"hot","action":"unfollow","name":"unfollow-follower-index"}] in policy [ilm-history-ilm-policy]
+[2020-07-01T12:52:45,071][INFO ][o.e.x.i.IndexLifecycleTransition] [TYC-YOGESH-004] moving index [.kibana-event-log-7.8.0-000001] from [{"phase":"hot","action":"unfollow","name":"unfollow-follower-index"}] to [{"phase":"hot","action":"unfollow","name":"open-follower-index"}] in policy [kibana-event-log-policy]
+[2020-07-01T12:52:45,306][INFO ][o.e.x.i.IndexLifecycleTransition] [TYC-YOGESH-004] moving index [ilm-history-2-000001] from [{"phase":"hot","action":"unfollow","name":"unfollow-follower-index"}] to [{"phase":"hot","action":"unfollow","name":"open-follower-index"}] in policy [ilm-history-ilm-policy]
+[2020-07-01T12:52:45,660][INFO ][o.e.x.i.IndexLifecycleTransition] [TYC-YOGESH-004] moving index [.kibana-event-log-7.8.0-000001] from [{"phase":"hot","action":"unfollow","name":"open-follower-index"}] to [{"phase":"hot","action":"unfollow","name":"wait-for-yellow-step"}] in policy [kibana-event-log-policy]
+[2020-07-01T12:52:45,823][INFO ][o.e.x.i.IndexLifecycleTransition] [TYC-YOGESH-004] moving index [ilm-history-2-000001] from [{"phase":"hot","action":"unfollow","name":"open-follower-index"}] to [{"phase":"hot","action":"unfollow","name":"wait-for-yellow-step"}] in policy [ilm-history-ilm-policy]
+[2020-07-01T12:52:46,029][INFO ][o.e.x.i.IndexLifecycleTransition] [TYC-YOGESH-004] moving index [.kibana-event-log-7.8.0-000001] from [{"phase":"hot","action":"unfollow","name":"wait-for-yellow-step"}] to [{"phase":"hot","action":"rollover","name":"check-rollover-ready"}] in policy [kibana-event-log-policy]
+[2020-07-01T12:52:46,199][INFO ][o.e.x.i.IndexLifecycleTransition] [TYC-YOGESH-004] moving index [ilm-history-2-000001] from [{"phase":"hot","action":"unfollow","name":"wait-for-yellow-step"}] to [{"phase":"hot","action":"rollover","name":"check-rollover-ready"}] in policy [ilm-history-ilm-policy]
+[2020-07-01T12:53:09,629][INFO ][o.e.c.m.MetadataCreateIndexService] [TYC-YOGESH-004] [kibana_sample_data_ecommerce] creating index, cause [api], templates [], shards [1]/[1], mappings [_doc]
+[2020-07-01T12:53:09,633][INFO ][o.e.c.r.a.AllocationService] [TYC-YOGESH-004] updating number_of_replicas to [0] for indices [kibana_sample_data_ecommerce]
+[2020-07-01T12:53:10,167][INFO ][o.e.c.r.a.AllocationService] [TYC-YOGESH-004] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[kibana_sample_data_ecommerce][0]]]).
+[2020-07-01T12:53:17,552][INFO ][o.e.c.m.MetadataMappingService] [TYC-YOGESH-004] [.kibana_1/rrsSLru0TvqAuW98rXNHPw] update_mapping [_doc]
+[2020-07-01T12:53:17,932][INFO ][o.e.c.m.MetadataMappingService] [TYC-YOGESH-004] [.kibana_1/rrsSLru0TvqAuW98rXNHPw] update_mapping [_doc]
+[2020-07-01T12:53:18,212][INFO ][o.e.c.m.MetadataMappingService] [TYC-YOGESH-004] [.kibana_1/rrsSLru0TvqAuW98rXNHPw] update_mapping [_doc]
+[2020-07-01T12:53:18,522][INFO ][o.e.c.m.MetadataMappingService] [TYC-YOGESH-004] [.kibana_1/rrsSLru0TvqAuW98rXNHPw] update_mapping [_doc]
+[2020-07-01T12:53:18,688][INFO ][o.e.c.m.MetadataMappingService] [TYC-YOGESH-004] [.kibana_1/rrsSLru0TvqAuW98rXNHPw] update_mapping [_doc]
+[2020-07-01T12:53:18,925][INFO ][o.e.c.m.MetadataMappingService] [TYC-YOGESH-004] [.kibana_1/rrsSLru0TvqAuW98rXNHPw] update_mapping [_doc]
+[2020-07-01T12:53:19,431][INFO ][o.e.c.m.MetadataMappingService] [TYC-YOGESH-004] [.kibana_1/rrsSLru0TvqAuW98rXNHPw] update_mapping [_doc]
+[2020-07-01T12:53:20,627][INFO ][o.e.c.m.MetadataMappingService] [TYC-YOGESH-004] [.kibana_1/rrsSLru0TvqAuW98rXNHPw] update_mapping [_doc]
+[2020-07-01T12:53:26,089][INFO ][o.e.c.m.MetadataMappingService] [TYC-YOGESH-004] [.kibana_1/rrsSLru0TvqAuW98rXNHPw] update_mapping [_doc]
+[2020-07-01T12:55:19,103][INFO ][o.e.c.m.MetadataCreateIndexService] [TYC-YOGESH-004] [.async-search] creating index, cause [api], templates [], shards [1]/[1], mappings [_doc]
+[2020-07-01T12:55:19,136][INFO ][o.e.c.r.a.AllocationService] [TYC-YOGESH-004] updating number_of_replicas to [0] for indices [.async-search]
+[2020-07-01T12:55:23,120][INFO ][o.e.c.r.a.AllocationService] [TYC-YOGESH-004] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[.async-search][0]]]).
+[2020-07-01T13:36:03,226][INFO ][o.e.c.m.MetadataIndexTemplateService] [TYC-YOGESH-004] adding template [logstash] for index patterns [logstash-*]
+[2020-07-01T13:36:03,768][INFO ][o.e.c.m.MetadataCreateIndexService] [TYC-YOGESH-004] [logstash-2020.07.01-000001] creating index, cause [api], templates [logstash], shards [1]/[1], mappings [_doc]
+[2020-07-01T13:36:04,967][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [TYC-YOGESH-004] adding index lifecycle policy [logstash-policy]
+[2020-07-01T13:36:05,121][INFO ][o.e.x.i.IndexLifecycleTransition] [TYC-YOGESH-004] moving index [logstash-2020.07.01-000001] from [null] to [{"phase":"new","action":"complete","name":"complete"}] in policy [logstash-policy]
+[2020-07-01T13:36:05,266][INFO ][o.e.x.i.IndexLifecycleTransition] [TYC-YOGESH-004] moving index [logstash-2020.07.01-000001] from [{"phase":"new","action":"complete","name":"complete"}] to [{"phase":"hot","action":"unfollow","name":"wait-for-indexing-complete"}] in policy [logstash-policy]
+[2020-07-01T13:36:05,452][INFO ][o.e.x.i.IndexLifecycleTransition] [TYC-YOGESH-004] moving index [logstash-2020.07.01-000001] from [{"phase":"hot","action":"unfollow","name":"wait-for-indexing-complete"}] to [{"phase":"hot","action":"unfollow","name":"wait-for-follow-shard-tasks"}] in policy [logstash-policy]
+[2020-07-01T13:42:43,763][INFO ][o.e.x.i.IndexLifecycleTransition] [TYC-YOGESH-004] moving index [logstash-2020.07.01-000001] from [{"phase":"hot","action":"unfollow","name":"wait-for-follow-shard-tasks"}] to [{"phase":"hot","action":"unfollow","name":"pause-follower-index"}] in policy [logstash-policy]
+[2020-07-01T13:42:43,970][INFO ][o.e.x.i.IndexLifecycleTransition] [TYC-YOGESH-004] moving index [logstash-2020.07.01-000001] from [{"phase":"hot","action":"unfollow","name":"pause-follower-index"}] to [{"phase":"hot","action":"unfollow","name":"close-follower-index"}] in policy [logstash-policy]
+[2020-07-01T13:42:44,117][INFO ][o.e.x.i.IndexLifecycleTransition] [TYC-YOGESH-004] moving index [logstash-2020.07.01-000001] from [{"phase":"hot","action":"unfollow","name":"close-follower-index"}] to [{"phase":"hot","action":"unfollow","name":"unfollow-follower-index"}] in policy [logstash-policy]
+[2020-07-01T13:42:44,322][INFO ][o.e.x.i.IndexLifecycleTransition] [TYC-YOGESH-004] moving index [logstash-2020.07.01-000001] from [{"phase":"hot","action":"unfollow","name":"unfollow-follower-index"}] to [{"phase":"hot","action":"unfollow","name":"open-follower-index"}] in policy [logstash-policy]
+[2020-07-01T13:42:44,478][INFO ][o.e.x.i.IndexLifecycleTransition] [TYC-YOGESH-004] moving index [logstash-2020.07.01-000001] from [{"phase":"hot","action":"unfollow","name":"open-follower-index"}] to [{"phase":"hot","action":"unfollow","name":"wait-for-yellow-step"}] in policy [logstash-policy]
+[2020-07-01T13:42:44,639][INFO ][o.e.x.i.IndexLifecycleTransition] [TYC-YOGESH-004] moving index [logstash-2020.07.01-000001] from [{"phase":"hot","action":"unfollow","name":"wait-for-yellow-step"}] to [{"phase":"hot","action":"rollover","name":"check-rollover-ready"}] in policy [logstash-policy]
+[2020-07-01T19:56:38,813][INFO ][o.e.x.m.p.NativeController] [TYC-YOGESH-004] Native controller process has stopped - no new native processes can be started
+[2020-07-01T19:56:39,046][INFO ][o.e.b.Bootstrap          ] [TYC-YOGESH-004] running graceful exit on windows
+[2020-07-01T19:56:39,069][INFO ][o.e.n.Node               ] [TYC-YOGESH-004] stopping ...
+[2020-07-01T19:56:39,105][INFO ][o.e.x.w.WatcherService   ] [TYC-YOGESH-004] stopping watch service, reason [shutdown initiated]
+[2020-07-01T19:56:39,108][INFO ][o.e.x.w.WatcherLifeCycleService] [TYC-YOGESH-004] watcher has stopped and shutdown
+[2020-07-01T19:56:39,887][INFO ][o.e.n.Node               ] [TYC-YOGESH-004] stopped
+[2020-07-01T19:56:39,902][INFO ][o.e.n.Node               ] [TYC-YOGESH-004] closing ...
+[2020-07-01T19:56:39,964][INFO ][o.e.n.Node               ] [TYC-YOGESH-004] closed
